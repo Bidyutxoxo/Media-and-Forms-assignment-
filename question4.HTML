@@ -1,0 +1,10 @@
+Question5= Write a short note on the tab index
+Answer- The tabindex attribute is a global attribute in HTML that specifies the sequential order of elements for keyboard navigation. It essentially defines the tab order - the order in which elements receive focus when the user presses the Tab key.
+How does it work?
+
+Values:
+tabindex="0": Makes the element focusable and adds it to the tab order.
+tabindex="-1": Makes the element focusable only through programmatic methods (e.g., JavaScript), not through the Tab key.
+Positive values (greater than 0): Assigns a specific tab order position within the document. Lower values receive focus earlier in the tab sequence. Elements with the same positive value receive focus in the order they appear in the HTML code.
+No tabindex attribute: The default behavior depends on the element type. Some elements like links and form controls are focusable by default, while others (like <div> or <span>) are not.
+
